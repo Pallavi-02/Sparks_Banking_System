@@ -1,0 +1,65 @@
+.adduser{
+
+  height: 60vh;
+  width: 100vh;
+  margin-left: 400px;
+  margin-top: 100px;
+  /* background-image: linear-gradient(-20deg, #e9defa 0%, #fbfcdb 100%); */
+  display: flex;
+  border-radius: 10px;
+  flex-direction: column;
+  justify-content: last baseline;
+  align-items: left;
+  min-width: 100px;
+  min-height: 400px;
+  padding: 20px 40px 40px 40px;
+  border-radius: 6px;
+  box-shadow: 0px 8px 36px #222;
+  background-color: transparent;
+}
+.theading {
+  display: flex;
+  justify-content: center;
+  font-family: "Segoe UI", "Ubuntu", "Roboto", "Open Sans", "Helvetica Neue",
+    sans-serif;
+  font-size: 2em;
+  font-weight: bold;
+  margin-top: 1.25em;
+  color: #222;
+  letter-spacing: 2px;
+}
+
+label {
+margin-bottom: 0.5em;
+color: #444;
+font-size: 1.25em;
+font-weight: lighter;
+}
+
+.adduser input{
+  display: flex;
+flex-direction: column;
+margin-bottom: 15px;
+width: 89vh;
+background-color: transparent;
+}
+.adduser button{
+  min-width: 80%;
+  width: 50%;
+  cursor: pointer;
+  margin-right: 0.25em;
+  margin-left: 3em;
+  margin-top: 0.5em;
+  padding: 0.938em;
+  border: none;
+  border-radius: 4px;
+  margin-bottom: 2%;
+  background-color: #22223b;
+  color: #fefefe;
+
+}
+.adduser button:hover{
+  cursor: pointer;
+  background-color: #4a4e69;
+color: #fefefe;
+}

@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Qahiri&display=swap");
+body {
+  background-image: url("./image/gif3.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+img {
+  width: 200px;
+  height: 200px;
+  
+}
+
+.parallex {
+  margin-top: 100px;
+  width: 1370px;
+  /* background-image: url("./image/gif3.gif"); */
+  min-height: 500px;
+  margin-left: 60px;
+  height: 800px;
+  margin-right: 60px;
+
+  /* opacity: 0.5;
+
+  /* Create the parallax scrolling effect */
+  background-attachment:scroll;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+  /* height: 300px;
+  text-align: center; */
+
+
+.parallex :hover {
+  opacity: 0.7;
+}
+.parallex img {
+  margin-left: 40px;
+  margin-top: 50px;
+  opacity: 0.9;
+  position: relative;
+  animation: mymove 5s infinite;
+}
+@keyframes mymove {
+  from {
+    left: 0px;
+  }
+  to {
+    left: 200px;
+  }
+}
+.parallex img :hover {
+  height: 50px;
+  width: 50px;
+  opacity: 0.5;
+}
+.parallex p {
+  font-size: 100px;
+  margin-left: 200px;
+  font-family: "Satisfy", cursive;
+  color: rgb(8, 8, 8);
+  text-shadow: 0 0 10px rgb(104, 104, 100);
+}
+.parallex p p {
+  color: rgb(2, 2, 2);
+  font-size: 50px;
+  font-style: cursive;
+  margin-left: 100px;
+  margin-top: 10px;
+}
+
+.Head > h1 {
+  padding-top: 80px;
+  padding-right: 400px;
+  font-size: 72px;
+  font-family: "Festive", cursive;
+  color: rgb(26, 25, 25);
+}
+
+.Wish > h1 {
+  float: left;
+  margin-top: -950px;
+  color: rgb(16, 16, 17);
+  font-family: "Satisfy", cursive;
+  padding-left: 40px;
+}
+
+.Wish > h1 > span {
+  font-family: "Satisfy", cursive;
+}
+

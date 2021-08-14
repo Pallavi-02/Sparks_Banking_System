@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish&display=swap");
+* {
+  font-family: "Mulish", sans-serif;
+}
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.Head > h1 {
+  padding-top: -80px;
+  padding-right: 450px;
+  font-size: 72px;
+  font-family: "Festive", cursive;
+  color: rgb(26, 25, 25);
+}
+
+.Wish > h1 {
+  float: left;
+  margin-top: -950px;
+  color: rgb(16, 16, 17);
+  text-shadow: 0 0 10px rgb(19, 19, 18);
+  font-family: "Satisfy", cursive;
+  padding-left: 40px;
+}
